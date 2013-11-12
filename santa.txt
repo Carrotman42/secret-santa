@@ -1,0 +1,29 @@
+
+// An example santa.txt file:
+
+// Sender information:
+Identity (usually blank),sender@email.com,password,smtp.email.com
+smtp.email.com:587,sender@email.com
+Secret Santa assignments!
+Hello!<br><br>Hopefully you are %1 at email address %2. If you are not this person, please tell the secret santa coordinator that something went horribly wrong!<br><br>Anyway, your secret santa assignment is %3.<br><br>Have fun!<br>Santa Claus
+
+// The seed for the matchings
+42
+
+// List of people involved in the secret santa
+Bob: bob@mail.com
+Jeff: jeff@wow.com
+Carl: raw@face.com
+Anne: anne@anne.anne
+Frank: bus@drive.com
+Mars: m@m.net
+Zeus: god@mail.com
+Hera: dess@mail.com
+
+// These three don't know each other
+Bob,Jeff,Carl
+// These groups are dating
+Frank,Bob
+Zeus,Hera
+// These two are awkward exes
+Anne,Frank
